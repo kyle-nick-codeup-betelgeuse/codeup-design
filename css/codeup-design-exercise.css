@@ -1,0 +1,121 @@
+/*.white {*/
+/*    background-color: white;*/
+/*}*/
+body {
+    background: #F0F0F0;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h4 {
+    margin: 1em 0;
+}
+
+
+.block {
+    text-align: center;
+    vertical-align: middle;
+}
+.button{
+    width: 70%;
+    margin: auto;
+}
+.circle-button {
+    border: 5px solid white;
+    border-radius: 50%;
+    color: white;
+    height: 105px;
+    font-weight: bold;
+    width: 105px;
+    display: table;
+    margin: 0 auto;
+}
+.circle-button p {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 24px;
+}
+.top-part {
+    margin: auto;
+    width: 80%;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.red {
+    background-color: #E6563B;
+}
+
+.orange {
+    background-color: #EB9D3A;
+}
+.green {
+    background-color: #7CB06C;
+}
+
+.blue {
+    background-color: #00ABA9;
+}
+
+.col-8 {
+    padding-right: 0;
+}
+.circle-icons {
+    border-radius: 50%;
+    height: 18px;
+    max-width: 18px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+
+}
+.selectedWork {
+    margin: 20px;
+}
+.dots{
+    /*padding:0;*/
+}
+
+.featured {
+    font-size: 22px;
+    font-family: 'Abel', sans-serif;
+
+    /*padding: 0;*/
+}
+.iconP {
+    vertical-align: middle;
+    /*display: table-cell;*/
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    margin: auto;
+    text-align:center;
+}
+.below-img {
+    height: 18px;
+}
+.SW-box {
+    margin: 0 0 50px 0;
+    padding: 0;
+}
+img {
+    display: block;
+    width: 100%;
+    border: 5px solid #E6E6E6;
+    margin-bottom: 8px;
+    border-radius: 5px;
+
+
+}
+@media screen and (min-width: 768px) {
+    .selectedWork {
+        width: 65%;
+
+    }
+}

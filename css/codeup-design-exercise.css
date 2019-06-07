@@ -78,19 +78,13 @@ h4 {
 .selectedWork {
     margin: 20px;
 }
-.dots{
-    /*padding:0;*/
-}
 
 .featured {
-    font-size: 22px;
+    font-size: 16px;
     font-family: 'Abel', sans-serif;
-
-    /*padding: 0;*/
 }
 .iconP {
     vertical-align: middle;
-    /*display: table-cell;*/
     color: black;
     font-family: 'Anton', sans-serif;
     font-size: 14px;
@@ -100,22 +94,32 @@ h4 {
 .below-img {
     height: 18px;
 }
+.right-img{
+    margin-left: 20px;
+}
+.left-img {
+    margin-right: 20px;
+}
 .SW-box {
     margin: 0 0 50px 0;
     padding: 0;
 }
-img {
+.sw-img{
     display: block;
     width: 100%;
+    height: 100%;
     border: 5px solid #E6E6E6;
     margin-bottom: 8px;
     border-radius: 5px;
-
-
+}
+.bs-img{
+    /*height: 100%;*/
 }
 @media screen and (min-width: 768px) {
     .selectedWork {
         width: 65%;
-
+    }
+    .bs-img{
+        /*height: 189px;*/
     }
 }

@@ -1,37 +1,27 @@
-/*.white {*/
-/*    background-color: white;*/
-/*}*/
 body {
     background: #F0F0F0;
 }
 main {
-    /*width: 80%;*/
     max-width: 768px;
     margin: auto;
 }
+
+/*Navbar*/
+
 #whiteBG {
-    width: 100%;
+    width: 110%;
     height: 60px;
     position: absolute;
     margin-top: 25px;
     background-color: white;
     z-index: -1;
-    /*top: 80px;*/
-}
-.h1 {
-    font-size: 48px;
-}
-
-.h4 {
-    margin: 1em 0;
-    font-size: 28px;
 }
 .container{
     max-width: 768px;
     margin: auto;
 }
 .top-top {
-    margin-top: 20px;
+    margin: 20px 0 0 0;
 }
 .logo {
     height: 105px;
@@ -39,21 +29,24 @@ main {
     display: block;
     margin: auto;
 }
-.logoBG {
-    /*background-color: white;*/
-    /*height: 52.5px;*/
-}
 .design {
     text-align: center;
     font-size: 32px;
-    /*margin-bottom: 20px;*/
 }
 .navFont {
     font-family: 'Abel', sans-serif;
+    text-align: center;
 }
-/*.navFont-1 {*/
-/*    margin-right: 20px;*/
-/*}*/
+
+/*Color Buttons & Title*/
+
+.h1 {
+    font-size: 48px;
+}
+.h4 {
+    margin: 1em 0;
+    font-size: 28px;
+}
 .block {
     text-align: center;
     vertical-align: middle;
@@ -85,38 +78,49 @@ main {
 .red {
     background-color: #E6563B;
 }
-
 .orange {
     background-color: #EB9D3A;
 }
 .green {
     background-color: #7CB06C;
 }
-
 .blue {
     background-color: #00ABA9;
 }
 
-.col-8 {
-    padding-right: 0;
-}
-.circle-icons {
-    border-radius: 50%;
-    height: 18px;
-    max-width: 18px;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
+/*Selected Work Part*/
 
-}
 .selectedWork {
     margin-left: 20px;
     float: left;
 }
-
+.SW-cont {
+    margin: 0;
+}
 .featured {
     font-size: 16px;
     font-family: 'Abel', sans-serif;
+    padding-right: 0;
+}
+.right-img{
+    margin-left: 20px;
+}
+.left-img {
+    margin-right: 20px;
+}
+.below-img {
+    height: 18px;
+}
+.SW-box {
+    margin: 0 0 50px 0;
+    padding: 0;
+}
+.sw-img{
+    display: block;
+    width: 100%;
+    border: 5px solid #E6E6E6;
+    margin-bottom: 8px;
+    border-radius: 5px;
 }
 .iconP {
     vertical-align: middle;
@@ -126,32 +130,25 @@ main {
     margin: auto;
     text-align:center;
 }
-.below-img {
+.circle-icons {
+    border-radius: 50%;
     height: 18px;
-}
-.right-img{
-    margin-left: 20px;
-}
-.left-img {
-    margin-right: 20px;
-}
-.SW-box {
-    margin: 0 0 50px 0;
+    max-width: 18px;
+    display: inline-block;
+    margin: 0 auto;
     padding: 0;
 }
-.SW-cont {
-    margin: 0;
-}
-.sw-img{
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: 5px solid #E6E6E6;
-    margin-bottom: 8px;
-    border-radius: 5px;
+
+/*The Last Side*/
+
+td {
+    padding-bottom: 20px;
 }
 .sideTab {
     margin: 15px 0 25px 15px;
+}
+.picTab {
+    width: 20%;
 }
 .rightSidePic {
     width: 100%;
@@ -162,12 +159,6 @@ main {
 }
 .twitterIcon {
     width: 6%;
-}
-.picTab {
-    width: 20%;
-}
-td {
-    padding-bottom: 20px;
 }
 .twitterSide {
     margin: 15px;

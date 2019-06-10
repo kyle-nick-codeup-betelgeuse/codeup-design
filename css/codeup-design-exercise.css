@@ -149,19 +149,29 @@ td {
 }
 .picTab {
     width: 20%;
+    padding-bottom: 30px;
 }
 .rightSidePic {
     width: 100%;
+    border: 1px solid #E6E6E6;
 }
 .rightSide {
     width: 30%;
     float: right;
 }
 .twitterIcon {
-    width: 6%;
+    width: 8%;
+    padding-top: 5px;
 }
 .twitterSide {
     margin: 15px;
+}
+.theEnd {
+    font-size: 10px;
+    padding-left: 5px;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    /*vertical-align: top;*/
 }
 .asideText {
     font-family: 'Anton', sans-serif;
@@ -170,6 +180,7 @@ td {
 .asideP {
     font-family: 'Abel', sans-serif;
     font-size: 10px;
+    margin-top: 6px;
 }
 
 @media screen and (min-width: 768px) {

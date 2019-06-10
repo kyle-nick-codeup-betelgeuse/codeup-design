@@ -87,12 +87,16 @@ main {
 .blue {
     background-color: #00ABA9;
 }
+hr {
+    margin-bottom: 50px;
+}
 
 /*Selected Work Part*/
 
 .selectedWork {
     margin-left: 20px;
     float: left;
+    font-family: 'Abel', sans-serif;
 }
 .SW-cont {
     margin: 0;
@@ -158,6 +162,8 @@ td {
 .rightSide {
     width: 30%;
     float: right;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
 }
 .twitterIcon {
     width: 8%;
@@ -169,9 +175,7 @@ td {
 .theEnd {
     font-size: 10px;
     padding-left: 5px;
-    font-family: 'Abel', sans-serif;
     font-weight: bold;
-    /*vertical-align: top;*/
 }
 .asideText {
     font-family: 'Anton', sans-serif;

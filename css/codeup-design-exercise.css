@@ -102,7 +102,7 @@ hr {
     margin: 0;
 }
 .featured {
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Abel', sans-serif;
     padding-right: 0;
 }
@@ -125,6 +125,9 @@ hr {
     border: 5px solid #E6E6E6;
     margin-bottom: 8px;
     border-radius: 5px;
+}
+.dots {
+    padding-right: 0;
 }
 .iconP {
     vertical-align: middle;
